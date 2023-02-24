@@ -1,0 +1,11 @@
+package ch01;
+
+public class TypeConversion {
+	public static void main(String[] args) {
+		//형변환
+		//자동 형 변환
+		//강제 형 변환
+		int iNumber1 = 100;
+		System.out.println(iNumber1);
+	}
+}

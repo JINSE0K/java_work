@@ -1,0 +1,13 @@
+package ch01;
+
+public class Datatype5 {
+	public static void main(String[] args) {
+		//논리형 boolean 불리언 ( 참 거짓 타입)
+		
+		boolean isMarried = false;
+		// ======= 위에 불리언타입에 변수명 지을때는 is를 붙혀야함 그냥 붙이셈 ======
+		System.out.println(isMarried);
+		isMarried = true;
+		System.out.println(isMarried);
+	}
+}

@@ -1,0 +1,16 @@
+package ch01;
+
+public class ConstantTest {
+	public static void main(String[] args) {
+		// 리터럴 = 상수 = 상수는 변하지 않는 수
+		// 상수의 선언은 대문자로 표현하고 단어간의 구문은 언더바(_)로 구분한다
+		// 리터럴은 상수라고 불린다 자세나오게 부를려면 리터럴이라고해라
+
+		final int FINAL_NUM = 12; // 상수의 선언과 초기화
+		FINAL_NUM = 1; // << 안됌 상수선언 후에는 한번만 초기화 됌 위에 처럼
+		// ============================
+		int FINAL_NUM_1 = 12;
+		FINAL_NUM_1 = 4; // < 여기는 됌 앞에 예약어가 final이 없기때문에 가능
+
+	} //end of main
+} //end of class

@@ -1,0 +1,16 @@
+package ch01;
+
+public class MainTest {
+	public static void main(String[] args) {
+		char myA = 'A';
+		char yourB = 'a';
+		System.out.println((int)myA); // 문자를 강제로 int 타입으로 변환 'A'를 int로 변환시 65로 출력
+		System.out.println((int)yourB); // 결과값 97로 나옴
+		System.out.println("==========");
+		System.out.println((short)myA);
+		
+		
+		
+		
+	}
+}

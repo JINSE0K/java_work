@@ -1,0 +1,27 @@
+package ex00;
+
+public class Student {
+
+	int studentid; // 멤버변수 - 메소드 (public void study) <-- 밖에서 선언된 변수를 말한다.
+	String studentName; // 낙타기법? 단어 앞 대문자로 구문해줌
+	String address;
+
+	public void study() {
+		System.out.println(studentName + "학생이 공부를 합니다");
+	}
+
+	public void drink() {
+		System.out.println(studentName + "학생이 술을 마십니다");
+	}
+
+	public void showinfo() {
+		System.out.println("======상태창=======");
+		System.out.println("학생의 학번은 : " + studentid + "입니다");
+		System.out.println("학생의 이름은 : " + studentName + "입니다");
+		System.out.println("학생의 주소는 : " + address + "입니다.");
+		System.out.println("=================");
+	}
+	public static void main(String[] args) {
+		System.out.println(showinfo);
+	}
+}

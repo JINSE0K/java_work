@@ -1,0 +1,28 @@
+package ch01;
+
+public class TypeConversion {
+	public static void main(String[] args) {
+		//형변환
+		//자동 형 변환
+		//강제 형 변환
+		int iNumber1 = 100;
+		System.out.println(iNumber1);
+		
+		//자동 형변환
+		double jNumber1 = iNumber1; //더블은 소숫점
+		System.out.println(jNumber1);
+		
+		//문제 만들어보기
+		int iNumber2 = 200;
+		double jNumber2 = iNumber2;
+		System.out.println(jNumber2);
+		//-----------------------
+		
+		//강제형변환
+		//강제 형변환의 주의점
+		
+		
+		
+		
+	}//end of main
+}//end of class

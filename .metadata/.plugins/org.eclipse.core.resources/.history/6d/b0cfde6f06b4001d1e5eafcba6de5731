@@ -1,0 +1,9 @@
+package Maple;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class mapleFrame extends JFrame{
+	private JLabel backgroudMap;
+	private Player player; 
+}
